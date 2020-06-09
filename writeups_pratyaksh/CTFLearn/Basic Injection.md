@@ -1,3 +1,14 @@
+---
+title: 'CTFLearn-Basic Injection'
+date: '2020-01-07'
+author: 'Pratyaksh Singh'
+background: 'https://raw.githubusercontent.com/SecOnset/SeconsetFile/master/writeups_pratyaksh/CTFLearn/CTFLearn%20SS/sqli.jpg'
+description:
+  'CTFlearn is an ethical hacking platform that enables tens of thousands to learn, practice, and compete. Here in this challenge we are going to tackle with the very basics of SQL injection problems.'
+SEO: 'Cybersecurity, SQLi, sql injection, hacking, cyber, sql, mysql,CTFlearn, CTF, Capture the flag'
+---
+
+
 # CTFLearn-Basic Injection
 
 Today we are going to work upon one of the most basic and also the most primarily taught topic in ethical hacking. We are going to work with SQL injection.
@@ -38,7 +49,11 @@ By adding the **OR** keyword and **`'1'='1`**, we are basically adding a simple 
 
 We are now retrieved with a flag here that is, FLAG:***th4t_is_why_you_n33d_to_sanitiz3_inputs***. 
 
-
+## How to avoid SQL injection?
+* Parameterized Statement.
+* Input Sanitization.
+* Object Relational Mapping.
+* Escaping Inputs.
 
 
 
